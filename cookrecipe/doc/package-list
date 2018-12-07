@@ -1,0 +1,6 @@
+com.cookrecipe.binghao.cookrecipe
+com.cookrecipe.binghao.cookrecipe.controller
+com.cookrecipe.binghao.cookrecipe.dto
+com.cookrecipe.binghao.cookrecipe.entity
+com.cookrecipe.binghao.cookrecipe.repository
+com.cookrecipe.binghao.cookrecipe.service
