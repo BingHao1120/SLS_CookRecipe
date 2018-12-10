@@ -105,12 +105,12 @@ angular
 							}
 
 							$scope.addRecipe = function() {
-								if ($scope.categoryList.selectedOption.categoryTitle != ""
-										&& $scope.recipeTitle != ""
-										&& $scope.recipeDescription != ""
-										&& $scope.cookTime != ""
-										&& $scope.ingredients != ""
-										&& $scope.steps != "") {
+								if ($scope.categoryList.selectedOption.categoryTitle != undefined
+										&& $scope.recipeTitle != undefined
+										&& $scope.recipeDescription != undefined
+										&& $scope.cookTime != undefined
+										&& $scope.ingredients != undefined
+										&& $scope.steps != undefined) {
 									var recipe = {
 										categoryTitle : $scope.categoryList.selectedOption.categoryTitle,
 										recipeTitle : $scope.recipeTitle,
